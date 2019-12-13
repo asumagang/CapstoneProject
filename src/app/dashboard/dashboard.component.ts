@@ -15,7 +15,7 @@ export class DashboardComponent implements OnInit {
   public barChartLegend = true;
 
   public barChartData: ChartDataSets[] = [
-    { data: [65000, 59000, 80000, 8100, 56000, 55000, 40000], label: 'Nnumber of Beneficiaries' },
+    { data: [65000, 59000, 80000, 8100, 56000, 55000, 40000], label: 'Number of Beneficiaries' },
     { data: [28000, 48000, 40000, 19000, 86000, 27000, 90000], label: 'Amount Disbursed' }
   ];
 
