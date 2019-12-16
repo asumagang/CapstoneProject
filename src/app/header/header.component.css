@@ -10,7 +10,7 @@
   .navbar {
     background-color: white;
     max-height: 45px;
-    z-index: 10000;
+    /* z-index: 10000; */
     border-bottom: #E9E9E9 .1px solid;
   }
   .navbar a {

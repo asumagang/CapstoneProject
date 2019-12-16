@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { ScannerComponent } from './scanner.component';
 import { FilelistComponent } from './filelist/filelist.component';
-import { ViewfileComponent } from './viewfile/viewfile.component';
+
 
 
 const routes: Routes = [
@@ -12,7 +12,9 @@ const routes: Routes = [
         path: 'filelist', component: FilelistComponent
       },
       {
-        path:'viewfile', component: ViewfileComponent
+        path: "reportfiles",
+        loadChildren: () =>
+          import(`./reportfiles/reportfiles.module`).then(m => m.ReportfilesModule)
       },
       {
         path: '', redirectTo: 'filelist', pathMatch: 'full'
