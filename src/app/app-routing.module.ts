@@ -15,6 +15,11 @@ const routes: Routes = [
       import(`./manageusers/manageusers.module`).then(m => m.ManageusersModule)
   },
   {
+    path: "scanner",
+    loadChildren: () =>
+      import(`./scanner/scanner.module`).then(m => m.ScannerModule)
+  },
+  {
     path: "",
     redirectTo: "dashboard",
     pathMatch: "full"
