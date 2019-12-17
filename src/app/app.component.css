@@ -35,6 +35,7 @@
   }
   .bg-dark1 {
     background-color: #222222;
+ 
   }
   
   .navbar a img {
@@ -87,8 +88,11 @@
     margin: 10px;
   }
   .panel:hover{
+  /* background-color: #2C2C2C; */
   background-color: #2C2C2C;
   }
   .active{
     background-color: #2C2C2C;
+
+
   }

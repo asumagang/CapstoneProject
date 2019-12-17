@@ -20,6 +20,11 @@ const routes: Routes = [
       import(`./scanner/scanner.module`).then(m => m.ScannerModule)
   },
   {
+    path: "insertdata",
+    loadChildren: () =>
+      import(`./insertdata/insertdata.module`).then(m => m.InsertdataModule)
+  },
+  {
     path: "",
     redirectTo: "dashboard",
     pathMatch: "full"
