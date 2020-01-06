@@ -10,20 +10,34 @@
         </div>
       </nav>
       <div class="container-fluid mt-3">
-          <div class="container annualgraph" >
-              <div>
-                <div style="display: block">
-                  <canvas baseChart 
-                    [datasets]="barChartData"
-                    [labels]="barChartLabels"
-                    [options]="barChartOptions"
-                    [colors]="barChartColors"
-                    [legend]="barChartLegend"
-                    [chartType]="barChartType">
-                  </canvas>
+          
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-3  pt-3">
+                  <p><i>Graph Description</i></p>
+                  <p>jdefjbrf ferwjbfwejfb lorgjkot tghtnhtehrn</p>
+                  <div class="card">
+                    <div class="card-body">Basic card</div>
+                  </div>
                 </div>
-                <!-- <button mat-button (click)="randomize()">Update</button> -->
+                <div class="col-sm-9 ">
+                  <div class="container annualgraph" >
+                    <div>
+                      <div style="display: block">
+                        <canvas baseChart 
+                          [datasets]="barChartData"
+                          [labels]="barChartLabels"
+                          [options]="barChartOptions"
+                          [colors]="barChartColors"
+                          [legend]="barChartLegend"
+                          [chartType]="barChartType">
+                        </canvas>
+                      </div>
+                      <!-- <button mat-button (click)="randomize()">Update</button> -->
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          <router-outlet></router-outlet>
+          <!-- <router-outlet></router-outlet> -->
       </div>
