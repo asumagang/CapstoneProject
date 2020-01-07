@@ -10,5 +10,11 @@
    
 }
 img{
-    height: 200px;
+    height: 180px;
+}
+.martop{
+    margin-top: -8px;
+}
+.inin{
+    font-size: 12px;
 }
