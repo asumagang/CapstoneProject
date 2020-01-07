@@ -8,13 +8,15 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ReportsComponent } from './reports/reports.component';
 import { ChartsModule } from 'ng2-charts';
+import { ProfileComponent } from './profile/profile.component';
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     HeaderComponent,
     FooterComponent,
-    ReportsComponent
+    ReportsComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,

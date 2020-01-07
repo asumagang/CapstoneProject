@@ -9,7 +9,7 @@
 }
   .navbar {
     background-color: white;
-    max-height: 45px;
+    max-height: 50px;
     /* z-index: 10000; */
     border-bottom: #E9E9E9 .1px solid;
   }
@@ -17,6 +17,13 @@
     color: #000000;
     font-size: 13px;
     margin-right: 7px;
+    background-color: white;
+    /* height: 15px; */
+  }
+  .navbar a:hover {
+  background-color: #000000;
+  border-radius: 10px;
+  color: white;
   }
   .navbar-brand img {
     height: 50px;

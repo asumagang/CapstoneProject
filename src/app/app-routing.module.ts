@@ -2,6 +2,7 @@ import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 import { DashboardComponent } from "./dashboard/dashboard.component";
 import { ReportsComponent } from "./reports/reports.component";
+import { ProfileComponent } from './profile/profile.component';
 
 const routes: Routes = [
   { path: "dashboard", component: DashboardComponent },
@@ -23,6 +24,10 @@ const routes: Routes = [
     path: "insertdata",
     loadChildren: () =>
       import(`./insertdata/insertdata.module`).then(m => m.InsertdataModule)
+  },
+  {
+    path:"profile",
+    component: ProfileComponent
   },
   {
     path: "",
