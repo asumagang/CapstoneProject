@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ReportsComponent } from './reports/reports.component';
 import { ChartsModule } from 'ng2-charts';
 import { ProfileComponent } from './profile/profile.component';
+import { PasswordsettingsComponent } from './passwordsettings/passwordsettings.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,8 @@ import { ProfileComponent } from './profile/profile.component';
     HeaderComponent,
     FooterComponent,
     ReportsComponent,
-    ProfileComponent
+    ProfileComponent,
+    PasswordsettingsComponent
   ],
   imports: [
     BrowserModule,

@@ -3,6 +3,7 @@ import { Routes, RouterModule } from "@angular/router";
 import { DashboardComponent } from "./dashboard/dashboard.component";
 import { ReportsComponent } from "./reports/reports.component";
 import { ProfileComponent } from './profile/profile.component';
+import { PasswordsettingsComponent } from './passwordsettings/passwordsettings.component';
 
 const routes: Routes = [
   { path: "dashboard", component: DashboardComponent },
@@ -28,6 +29,10 @@ const routes: Routes = [
   {
     path:"profile",
     component: ProfileComponent
+  },
+  {
+    path:"passwordsettings",
+    component: PasswordsettingsComponent
   },
   {
     path: "",
